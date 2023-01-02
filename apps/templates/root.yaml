@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: apps/
-    repoURL: git@github.com:tux22/argocd-homelab.git
+    repoURL: https://github.com/tux22/argocd-homelab.git
     targetRevision: HEAD
   syncPolicy:
     automated:
